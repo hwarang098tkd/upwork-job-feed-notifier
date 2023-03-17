@@ -5,10 +5,16 @@ from PyQt5.QtWidgets import QApplication, QWidget, QMessageBox, QListWidgetItem,
 from main import parse_and_store
 import sys
 import os
-import subprocess
+import logging
+from datetime import datetime
 
 #--------- Variable --------
 data = {}
+logging.basicConfig(filename='upwork_rss.log', level=logging.INFO)  # Set up logging
+
+
+def logging_info(message, current_datetime):
+    logging.info(f"{message} - {current_datetime}")
 
 # Create a custom QThread to run parsing in a separate thread
 class ParseThread(QThread):
@@ -147,10 +153,14 @@ class Login(QWidget):
         self.ui.error_lb.setText(message)
 
 if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    login_window = Login()
-    login_window.setWindowTitle("Upwork Rss feed")
-    # set the window icon
-    icon = QIcon("assets/icons/rss.png")
-    login_window.setWindowIcon(icon)
-    sys.exit(app.exec())
+    try:
+        app = QApplication(sys.argv)
+        login_window = Login()
+        login_window.setWindowTitle("Upwork Rss feed")
+        # set the window icon
+        icon = QIcon("assets/icons/rss.png")
+        login_window.setWindowIcon(icon)
+        sys.exit(app.exec())
+    except(Exception):
+        logging_info(Exception,str(datetime.now()))
+

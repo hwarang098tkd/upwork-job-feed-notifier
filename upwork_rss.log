@@ -2234,3 +2234,19 @@ INFO:root:2023-03-16 11:04:31.138723 - RSS feed parsed and data stored successfu
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\hwa_r\\PycharmProjects\\upwork_rss\\venv\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\hwa_r\PycharmProjects\upwork_rss\venv\lib\site-packages\comtypes\gen'
 INFO:root:2023-03-16 11:58:57.281340 - RSS feed parsed and data stored successfully
+INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\hwa_r\\PycharmProjects\\upwork_rss\\venv\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\hwa_r\PycharmProjects\upwork_rss\venv\lib\site-packages\comtypes\gen'
+INFO:root:2023-03-16 12:17:00.953187 - RSS feed parsed and data stored successfully
+INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\hwa_r\\PycharmProjects\\upwork_rss\\venv\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\hwa_r\PycharmProjects\upwork_rss\venv\lib\site-packages\comtypes\gen'
+INFO:root:2023-03-17 11:39:04.415694 - RSS feed parsed and data stored successfully
+INFO:root:2023-03-17 11:44:12.490669 - RSS feed parsed and data stored successfully
+INFO:root:2023-03-17 11:49:15.559752 - RSS feed parsed and data stored successfully
+INFO:root:2023-03-17 11:54:16.693135 - RSS feed parsed and data stored successfully
+INFO:root:2023-03-17 11:59:19.753823 - RSS feed parsed and data stored successfully
+INFO:root:2023-03-17 12:04:20.807604 - RSS feed parsed and data stored successfully
+INFO:root:2023-03-17 12:09:21.987539 - RSS feed parsed and data stored successfully
+INFO:root:2023-03-17 13:23:31.861289 - RSS feed parsed and data stored successfully
+INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\hwa_r\\PycharmProjects\\upwork_rss\\venv\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\hwa_r\PycharmProjects\upwork_rss\venv\lib\site-packages\comtypes\gen'
+INFO:root:2023-03-17 13:42:15.314877 - RSS feed parsed and data stored successfully

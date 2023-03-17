@@ -1,8 +1,5 @@
-import time
-
 import feedparser
 import pyodbc
-import schedule
 import logging
 from datetime import datetime
 from win10toast_click import ToastNotifier
@@ -12,13 +9,20 @@ import os
 import sys
 import pyttsx3
 
-logging.basicConfig(filename='upwork_rss.log', level=logging.INFO)  # Set up logging
+# get the path of the script
+script_path = os.path.dirname(os.path.abspath(__file__))
+
+# set up logging to write to upwork_rss.log in the script directory
+log_file_path = os.path.join(script_path, "upwork_rss.log")
+logging.basicConfig(filename=log_file_path, level=logging.INFO)
+
 toaster = ToastNotifier()  # initialize
 
 
 def login_sql():
-    # get the json data from file settings
-    with open(os.path.join(sys.path[0], "settings.json"), "r") as f:
+    # load settings from settings.json in the script directory
+    settings_file_path = os.path.join(script_path, "settings.json")
+    with open(settings_file_path, "r") as f:
         data = json.load(f)
     urls = data["urls"]
 
