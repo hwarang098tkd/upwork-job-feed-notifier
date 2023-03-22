@@ -1,10 +1,10 @@
 {
   "credentials": {
-    "server": "DESKTOP-NUJ09D8",
-    "database": "Upwork",
-    "username": "upwork_user",
-    "password": "1234"
+    "server": "server-name",
+    "database": "Database_Name",
+    "username": "User_name",
+    "password": "Password"
   },
     "urls": {
-      "all_feed": "https://www.upwork.com/ab/feed/topics/rss?securityToken=df596e9c9ec10b75da5c3dc88ae622fdcc9e0bc3f50cf7afdbd8dc09919fcc7c3a66ba16118c8739f03a1dbb489e662a4bec4d5ad47d8644b6ac30f5bd0fea67&userUid=1366677680409812992&orgUid=1366677680409812993" }
+      "all_feed": "URL" }
 }
